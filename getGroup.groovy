@@ -1,4 +1,4 @@
-def issueKey = 'CLOUD-1'
+def issueKey = 'CLOUD-2'
 
 def result = get('/rest/api/2/issue/' + issueKey)
         .header('Content-Type', 'application/json')
